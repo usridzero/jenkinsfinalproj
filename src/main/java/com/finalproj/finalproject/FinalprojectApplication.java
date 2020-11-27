@@ -3,20 +3,15 @@ package com.finalproj.finalproject;
 /**
  * Hello world!
  */
-public class App
-{
+@SpringBootApplication
+public class FinalprojectApplication {
 
     private final String message = "Hello World!";
 
-    public App() {}
+    public FinalprojectApplication() {}
 
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
-    }
-
-    public static int calc(int a, int b) {
-        int result = a * b;
-        return  result;
     }
 
     private final String getMessage() {
