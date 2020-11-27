@@ -14,10 +14,6 @@ public class FinalprojectApplication {
     public FinalprojectApplication() {}
 
     public static void main(String[] args) {
-	SpringApplication.run(FinalprojectApplication.class, args);
-    }
-
-    public static void main(String[] args) {
         System.out.println(new FinalprojectApplication().getMessage());
     }
 
